@@ -1,0 +1,29 @@
+this is the entire explaination for the revision of javascript 
+All the code shall available in the script.js file
+JS = javascript
+prior name = mocha 
+developed by = brendon eich
+maintained by = echema (community)
+
+so there was some issues with the javascript till "ES5"=echema script version 5 and after the ES6 its an absolute flawless language
+
+
+
+
+
+
+variables = a word that acctually stores a value like some string int 
+types
+1.var = from ES5 function scoped could be declared twice with the different value
+2.let = from ES6 blocked scoped and the value could be changed
+3.const = also from the ES6 but the scope is global and value cannot be changed 
+
+temporal dead zone = when we execute the variable before its initialization
+hoisting = when a variable is made its declaration goes on top of the code but the initialization remains in its place so that makes the temporal dead zone and it happens in all three types of variables var,let,const but the var shows "UNDEFINED" and let, const gives a refrence error
+
+
+
+starting:-
+
+so the javascript cant be executed without having any html file so to make the java script work in our browser we must create the html file and then add the js file in the body.
+
