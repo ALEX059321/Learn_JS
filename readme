@@ -27,3 +27,13 @@ starting:-
 
 so the javascript cant be executed without having any html file so to make the java script work in our browser we must create the html file and then add the js file in the body.
 
+DataTypes:-
+primitive = with the brackets eg:- [arrays] {objects} (functions)
+refrences = without any brackets:- strings,number,booleans etc.
+
+
+integer = number
+string = set of characters 
+null = value is empty
+undefined = a value that is not defined yet by default its undefined given by the java script engine
+symbol = 
