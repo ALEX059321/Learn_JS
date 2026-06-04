@@ -36,4 +36,39 @@ integer = number
 string = set of characters 
 null = value is empty
 undefined = a value that is not defined yet by default its undefined given by the java script engine
-symbol = 
+symbol = an unique value that cannot be changed 
+bigint = allows us to use more value than the java script acctually supports by default
+
+
+Dynamic typing = js changes and chooses the data type of the value on the basis of the value assigned to the variable and later if the value changes the data type also changes we don not need to define that some variable is an integer or a boolean java script shall do that on its own and this functionality is called dynamic typing.
+
+
+quirks:-
+"typeof" = to know the type of the value (u could check this in the console windows of the broweser)
+"NaN" = not a number (an operation that cannot be performed but it is realated to number its a failed number operation word)
+
+
+
+type coercion:-
+
+when the java scripts changes the data types of the value automatically 
+example:- 
+
+
+let a = "5" + 1
+
+output = 51
+
+the js engine changed the data type of the 1 and converted it into the string to concatt the values so the operation could be performed 
+
+let "5" - 1
+
+output = 4
+
+js changed the data type of 5 into an integer and performed the equation (in js + is used for the two tasks first is for adding the value and the other one is to concatinate two values so whhenever there is a string and a integer the string would always gets its data type changed )
+
+
+truthy and falsy values :-
+
+falsy values = 0 , null , undefined , NaN , document.all
+truthy = remaining all are truthy
