@@ -72,3 +72,63 @@ truthy and falsy values :-
 
 falsy values = 0 , null , undefined , NaN , document.all
 truthy = remaining all are truthy
+
+
+
+operators in js :- are used to perform an operation in js it could be an mathmatical operation or a logical
+
+
+arithmetic: + - * % / **
+ + is used to used to add the values of two numbers but it also used to concatinate (har+sh = harsh) the strings or the output 
+ - substract
+ / divide
+ * multiplication
+ % reminder/percentage but in js it is called "mod"
+ ** expontiation used to do  2 power of 3 = 8 such operations 
+
+
+
+comparison: == === != !== <= >=' < >
+ == used to check that if the two values are same or not but it only checks the value not the data types of the values 
+ === same as double equal but also checks the data type of the value makes comparison more stricker
+ != not equal 
+ !== same as not equal operator but more sticker than that (also checks the data type)
+ > greater than 
+ < less than 
+ >= greater equal just as the greater than operator same with the =<
+
+logical:
+&&: works as the AND gate TT if the both values are true then the output should be true 
+|| or operator if one is true the output is true 
+! not operator makes the output opposite of its true output if the ans is true and if we use not operator then the output shall be false 
+
+
+assignment: = 
+= equal 
++= add equal 
+-+ substract and equal 
+*=
+/=
+%=
+
+unary: + ++ -- - ! typeof instanceof
+
++: place it infront of your value and it shall chnage its data type if +"2" the output would change this string into an integer 
+-: to make the value negetive 
+++: increment mostly used in loops 
+-- decrement 
+typeof: is used to know the data type of the value but it shows the wrong output in:
+
+null: object (false)
+typeof[]: object
+NaN: number
+
+instanceof: gives output in boolean (t or f) and used to check that some value is related to the other value "instance/part"
+
+
+
+! : gives an ouput of the opposite datatype of the value if the 6 > 4 then it would tell that its false
+
+
+
+ternary= ?:  works as the if else statements 
