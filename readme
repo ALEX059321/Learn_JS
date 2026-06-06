@@ -132,3 +132,10 @@ instanceof: gives output in boolean (t or f) and used to check that some value i
 
 
 ternary= ?:  works as the if else statements 
+
+
+
+Control flow: if else,else if,switch-case,early return pattern 
+
+if else = you could use this to check two statements and only the statement that returns true shall be executed 
+
