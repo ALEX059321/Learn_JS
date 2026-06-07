@@ -126,3 +126,42 @@ while(condition){}
 //     console.log(i);
 //     i++;
 // }
+
+// do while loop = the code will run at least once even if the condition is false
+
+//pattern 
+/* 
+do{initialization/change}
+while(condition/end)
+*/
+
+
+// let i = 12;
+// do{
+//     console.log(i)
+//     i++;
+// }while(i < 2);  // here i wrote that the loop must shall be execcuted until i is less than 2 but i is already declared as 12 so its false but the loop will run at least once because of do while loop
+
+//outpu: 12
+
+// break and continue
+// for (let i = 1; i < 101; i++){
+//     console.log(i)
+//     if(i === 12){
+//         break; // it will break the loop when i is 12
+//     }
+// }
+
+
+// for(let i = 1; i< 101; i++){
+//     if(i === 10){
+//         continue; // it will skip the iteration when i is 10 and continue with the next iteration
+//     }
+//     console.log(i);
+// }
+
+// print the multiplication table of 5
+// for(let i = 1; i < 11; i++){
+//     console.log(`5 * ${i} = ${5 * i}`);  //${} is used to insert the value of the variable in the string dynamically and it shall be used inside the backticks `` which is called template literals
+// }
+

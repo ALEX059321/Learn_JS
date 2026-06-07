@@ -145,5 +145,12 @@ if else = you could use this to check two statements and only the statement that
 Loops: whenever we want to repeat the execution of the same code whether in increment or decrement then we use loops
 1. for Loop = when we know the numbers of iteration we know the starting point and the ending point of the loop then we use for loop // check the script.js file for the examples  
 2. while loop = when we want to execute the code in repeat until we get a specific output/condition (we dont know the number of iterations)
-3. do-while loop = 
+3. do-while loop = do{} while(condition) dowhile gets executed atleast once in a loop 
 4. foreach 
+
+
+
+
+
+break statement = to stop a loop in between the execution used with the if(){} condition
+continue statement = when we want to skip some specific output but want to continue the loop for the next values 
