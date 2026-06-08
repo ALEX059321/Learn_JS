@@ -165,3 +165,39 @@ while(condition/end)
 //     console.log(`5 * ${i} = ${5 * i}`);  //${} is used to insert the value of the variable in the string dynamically and it shall be used inside the backticks `` which is called template literals
 // }
 
+// sum of first 100 natural numbers
+
+
+// let sum = 0;
+// for (let i = 1; i < 101; i++){
+  
+//   sum = sum + i;
+//   console.log(sum)
+// }
+
+// divisible by 3 between 1 and 50
+// for(let i = 1; i < 51; i++){
+//   if(i % 3 === 0){
+//     console.log(i)
+//   }
+// }
+
+// find numbers which are divisible by both 3 and 5 between 1 and 100
+// for(let i = 1; i<101; i++){
+//   if(i%3 === 0 && i%5 === 0){
+//     console.log(i)
+//   }
+// }
+
+// print first 5 odd numbers between 1 to 100 using the break statement
+
+// let count = 0
+// for(let i = 1; i < 101; i++){
+//   if(i % 2 === 1){
+//     count++;
+//     console.log(i);
+//   }
+//   if(count === 5)break;
+// }  
+
+
