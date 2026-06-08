@@ -201,3 +201,180 @@ while(condition/end)
 // }  
 
 
+
+//FUNCTIONS
+
+// declaration 
+
+// function greet(){
+//   console.log("hello world");
+// }  
+
+// greet(); // calling the function to execute the code inside the function body
+
+// function with parameters
+
+
+// let name = "john";l
+// function greet(name){
+//   console.log(`hello ${name}`);
+// }
+
+// greet("john"); // output: hello john
+
+
+//fat arrow function ES6     
+
+// () fat
+// => arrow   
+
+// const greet = ()=> {
+//   console.log("hello world");
+// }
+
+// fat arrow function with parameters
+// let name = "raj"
+// const greet = (name) =>{
+//   console.log(`hello ${name}`);
+// }
+// greet(name);    must write the parameter in the function call to get the output otherwise it will be undefined
+
+// solving equations using functions
+
+//ADDing two numbers
+
+// function add(V1, V2){
+//   console.log(V1 + V2);
+// }
+
+
+
+// add(45, 99); // output: 144
+
+
+
+//first class function = a function that can be treated as a value and can be passed as an arguement to another function or can be returned from another function.
+// let intro = (name) =>{
+//          name();}
+
+
+// intro(function(){
+//   console.log("hello im learning javascript and this is a frist calss function");
+// })
+
+
+
+//Higher order funaction = a function that accepts a function in its parameters or returns a function in its body  
+
+
+
+// function greetings(name){
+//           name();  //accepting a function in the place of a parameter so its a higher order function now  
+// }
+
+
+// greetings(function() {
+//   console.log("hello world" )
+// })
+
+
+
+
+//RETURN IN HIGHER ORDER FUNCTION
+
+
+// function greet(){
+//   return function(){
+//     console.log("this is a higher order function ")
+//   }
+// }
+
+
+// greet()()  // call it twice first for the greet function and the secodn is for the execution of the function that is in the return of the greet function.
+
+
+
+
+//PURE VS IMPURE FUNCTION
+
+//PURE = A FUNCTION THAT DOES NOT INFLUENCE THE VALUES OF ITS SURROUNDING CODE EXCEPT ITS OWN BODY
+
+// let a = 10
+// const greet = () =>{
+//          console.log("this is a pure functon because this function does not effect the outer code except its own")
+// }
+
+// greet();
+
+// //IMPURE
+// const increment = () => {
+//   a++
+// }
+
+// increment();
+
+// console.log(a) //output = 11 as the increment function changed the value of "a" variable
+
+
+//closures = a function that returns a function and that child function uses a variable that is declared in its parent function
+
+// function greet(){
+//   let name = "Alex"
+//   return function(){
+//     console.log(`hello ${name}`)
+//   }
+// }
+
+// greet()() // as we can see that the greet function has a child function in return that is using the name variable in the console window but that name varaiable is declared inside its paremt function (greet) and so we would need to call both functions in order to make it work so i called the greet function twice by using the double parantheses this is called a closure
+
+
+
+//lexical scoping = the scope of those variables that are declared in the function so it means that if a varaible declared in a function you cannot access that variable outside og that function this is called the lexicle scoping of a a varible,
+                                                                                   //   OR 
+//Lexical scoping in JavaScript means that the accessibility of a variable is strictly determined by its physical position within the written source code.
+
+
+// const sum = () => {
+//   let a = 20  // a variable is accessible inside the whole sum function because it exists in a parent function 
+//   function sum2(){
+//     let b = 40 // b variable is only acccessible in function sum 2 and sum3 function  
+//     function sum3(){
+//       let c = 60 // c is only accessible in the sum3 function
+//     }
+//   }
+// }
+
+
+//IIFE (immediately invoked function expressions ) = a function that does not has any name but is called just after the function declaration
+
+// (function(){
+//   console.log("this is a IIFE function")
+// })(); // (); just called after the declaration 
+
+// question = use rest parameter to accept any number of scores and return the total
+
+// function getscores(...score){
+// let total = 0;
+// score.forEach(function(val){
+//   total = total+val 
+  
+// })
+// return total;  // return the value outside of your child function or if its not there then the function the parameters is written
+// }
+
+
+// console.log(getscores(10,20,90,200,784,343));
+
+
+
+//pass a function into another function and execute it inside
+
+// function greet(name){
+//   name();
+// }
+
+// greet(function(){      // basically we are telling the js engine that access a function that is in the function called "greet" and console "here we go"
+//   console.log("here we go")
+// })
+
+

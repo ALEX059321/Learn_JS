@@ -154,3 +154,55 @@ Loops: whenever we want to repeat the execution of the same code whether in incr
 
 break statement = to stop a loop in between the execution used with the if(){} condition
 continue statement = when we want to skip some specific output but want to continue the loop for the next values 
+
+
+
+FUNCTIONS IN JS: A set of code that could perform a specific task and once its written it could be declared anywhere in the code to perform that specifc task thus it reduces the lines of code beacuse you just have to write it once and later whenever you want to perform that task you just simply call that function 
+
+
+ES5 = till echema script 5 we used to have function expression (storing a function inside a variable) 
+ES6 = now a fat arrow function is popular with the ES6
+
+
+function expression = saving a function insde a variable is called function expression 
+function with parameters = passing a variable value inside a function is called function with parameters
+
+Default,rest and spread parameters
+
+Default = when a function is called with parameters but the value is not defined then we could set some default values of our parameters it means that if iuser doesnt gives any value to the parameters then use default values to execute the function these default values could be defined in with the paramenters its like declaring a value to the variable 
+
+Rest = when the arguements are too many and we dont wanna write all those parameters as it would make the code more bulkier so we use rest operator (...) if it is used in the place where the parameters are written then it is a rest operator that would fetch all parameters and we would not need to write all of those 
+spread operator = same as rest operator but if its used with the arrayas and the objects then it i called the spread operators
+
+
+
+
+
+
+Return on functions: when we store the ouput of a function in variable and that output is declared using the return keyword in the function 
+
+
+first class function: passing an another  function as an arguements while calling a function
+                                        OR 
+first class function: it means that functions are treated like any other variable or value. You can assign functions to variables, pass them as arguments to other functions, and return them from other functions
+
+
+
+higher order function = a function that is accepting an another function in its parameter or in its return 
+
+
+pure function = that does not influence the outer code 
+impure = that does influenece the outer code //check script.js 298 line for examples
+
+
+closures = a function that returns a function and that returned function uses a variable that is declared in its parent function.
+
+Lexical scoping = the accessibility of a variable is strictly determined by its physical position within the written source code.
+
+
+IIFE (immediately invoked function expression) = a function that does not has any name but is getting called just after its declaration //check for example in line no.348 (script.js)
+
+Hoistng in function = calling a function before its declaration (does not works if its declared in a function expression)
+
+function expression = storing a function inside a varibel 
+function statements/declaration = normal function declaration 
