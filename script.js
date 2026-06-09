@@ -378,3 +378,114 @@ while(condition/end)
 // })
 
 
+//ARRAYS: okay so if we talk about the other languages an array is called a collection that could store the multiple values of the same data types but since javascript supports the dynamic arrays so the arrays in js could store multiple values of different data types such as strings integer boolean etc. these are zero indexed means that the index shall start from the 0 not 1 ypu could perform different actions with the stored values in array by using the arrays properties, it starts with []
+
+
+
+//CREATING AN ARRAY 
+
+// let arr = [10,20,40,60,50,70,80,990];  // must use the sequare brackets to make an array 
+
+
+//accessing the value stored in array
+
+// console.log(arr[4]) // it starts with the 0 so if you want to access the 5th value of the array then it index number would be 4 
+
+
+//modifying a value in an array
+
+// arr[4] = 99;   // we told it to change the value of the 4th indexed value to the 99 and now in the place of 50 there should be 99
+// console.log(arr[4]) 
+   //OUTPUT = 99
+
+
+
+   // array methods = a function that remains on the top of an object and performs some specific operations with the array.
+
+   // push = adding a value in the array 
+
+
+  //  arr.push(499); // a new value 499 is added to our array in the last (after 50)
+
+   //pop = removing a value 
+
+  //  arr.pop(); // 499 that was added using the push is removed these operations always works in LIFO (last in first out) however we could delete or add a value at a specifc location by defining the index number 
+
+   // unshift = adds the value in the index of 0 of an array 
+
+  // arr.unshift(786); // added a number 786 in the 0th ndex number of the array
+  
+  
+  //splice     // for removing the value from the array it takes two values in its parentheses first one is for = where to remove the value and the 2nd one is for = how many value you wanna remove from it 
+  
+  
+  //arr.splice(2,3) // the first field chose the 3rd indexed value and the 2nd value removed the 3 values from the chosen location of the array  
+
+// slice = same as the splice but when you use this it wont change the values of the main index but instead it would make the changes in a new array which we could store into a avariable to acess it, it would just create a copy of the array then would make the changes into 
+
+// let newarr = arr.slice(0,3)  // it created the copy of the "arr" array then made changes into it so for accessing the new copied array we stored that new copied array in a variable called = "newarr" and now we could acess the new copied arr and could check the changes into it.
+
+
+//reverse = it reverses the array (changes the main array does not makes the copy like the slice)
+
+//arr.reverse();  // the array shall be shown now in the reverse order
+
+
+// sort = it accepts a function in its parentheses which returns a value and it accepts two variables in it parameters it is used to make the array in an ascending order or in decending order
+
+
+// let newarr = arr.sort(function(a,b){  // accepts two parameters u could write any alphabet here it does not requires to be declared to the outside of the function
+//   return b-a // a-b for acending b-a for decending
+// })
+
+
+
+// foreach = foreach accepts a function in its parentheses and a variable in it paarameter so the value could be stored into this and whatever you will write in that function shall be performed with th every single value in array
+
+// arr.forEach(function(val){
+//   console.log(val+5);  // now 5 would be added in the all values that are availble in the array 
+// })
+
+
+// map: use whenever you want to create a new array but on the basis of some other array data it accepts a function and it must be return and we could perform some actions in thatv new array and it would not change the values of the previous array bt would take take data from it and shall show it in new array it accepts a parameter
+
+
+// let newarr = arr.map(function(val){
+//         if(val> 50) return val;  // it would take data from the array called "arr" but would create a new array so we could save that new array in some variable to access its value and in the function it is defined that only those values should be shown those are greater than the 50 so it would only show them and in the place of smaller value there will be "undefined"
+// })
+
+
+// filter = also creates a new array like the map but it accepts only those values that are true for the given condition in the function and it also should be must return] true or false 
+
+
+//reduce = combinning all the values and reducing the array to the only one value 
+
+
+// let newarr = arr.reduce(function(accumalator,val){
+//    return accumalator+val 
+// },0)  // it gave the total of all the values those were available in the array 
+
+
+//find = same as map but it finds a specific value in the array and it accepts a function and a parameter variable and after return you could write your condition "val === 1" find 1 in the parameter called the val and all of this should be stored in the new variable so we could access it 
+
+
+//some = gives an output in boolean according to the condition accepts a function and a parameter to store the value and also could be stored into a variable to access the value must be return the condition 
+
+
+//every = just like the && operator all the values must be true according to the condition otherwise it would give false 
+
+
+
+// destructuring: storing some values of an array into a variable so it could be accessed later 
+
+
+// let [a,b,,d] = arr;  // indexed 0 , 1 and 3th are saved into a varible a b and d 
+
+
+// console.log(a)
+// this is called the destructuring in arrays 
+
+// spread operators in arrays 
+
+
+// let arr2 = [...arr]  // all the values of arr array is copied and saved into a variable called arr2 and using the spread operator (...) we didnt have to put all the values manually
