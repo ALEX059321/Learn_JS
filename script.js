@@ -384,7 +384,8 @@ while(condition/end)
 
 //CREATING AN ARRAY 
 
-// let arr = [10,20,40,60,50,70,80,990];  // must use the sequare brackets to make an array 
+// 
+// must use the sequare brackets to make an array 
 
 
 //accessing the value stored in array
@@ -481,7 +482,6 @@ while(condition/end)
 
 // let [a,b,,d] = arr;  // indexed 0 , 1 and 3th are saved into a varible a b and d 
 
-
 // console.log(a)
 // this is called the destructuring in arrays 
 
@@ -489,3 +489,47 @@ while(condition/end)
 
 
 // let arr2 = [...arr]  // all the values of arr array is copied and saved into a variable called arr2 and using the spread operator (...) we didnt have to put all the values manually
+
+
+//objects: a collection of data that stores different values of different data types under a title {}
+
+// declaring a object 
+
+// let obj = {
+//   name: "raj",
+//   age: 22,
+//   branch: "CSE",
+
+// }
+
+// acccessing the values of obj 
+
+
+// console.log(obj.name)  // output "raj"
+
+
+// only the properties defined in the object would be able to be accessed like this 
+
+// nesting in objects 
+
+
+// const user = {   // in this object some values are under other objects this is called the nesting of objects 
+//   name: "raj",
+//   address:{
+//     state: "Punjab",
+//     pin: 111111,
+//     class:{
+//       branch: "CSE"
+//     }
+
+//   }
+// }
+
+
+// // acccessing the nestedbject
+
+
+// console.log(user.address.class.branch);  // OUTPUT: CSE 
+
+// // all the values name must be the same as declared in the objects otherwise it shall throw an error 
+

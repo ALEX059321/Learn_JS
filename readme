@@ -213,3 +213,7 @@ function statements/declaration = normal function declaration
 ARRAYS IN JS: okay so if we talk about the other languages an array is called a collection that could store the multiple values of the same data types but since javascript supports the dynamic arrays so the arrays in js could store multiple values of different data types such as strings integer boolean etc. these are zero indexed means that the index shall start from the 0 not 1 ypu could perform different actions with the stored values in array by using the arrays properties, it starts with []
 
 //CHECK THE script.js for the explanation of the arrays
+
+
+
+// objects (last topic) check script.js line 494
